@@ -5,7 +5,6 @@ import Card from './components/Card';
 import data from './data';
 
 function App() {
-  console.log(data);
   const cards = data.map(item => {
     return (
       <Card 

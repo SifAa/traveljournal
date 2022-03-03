@@ -4,3 +4,7 @@ nav {
     padding: 20px 36px;
     background-color: #F55A5A;
 }
+
+.card {
+    flex-direction: row;
+}
