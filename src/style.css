@@ -1,10 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+
+a {
+    color: #918E9B;
+}
+
 nav {
     height: 70px;
     display: flex;
     padding: 20px 36px;
     background-color: #F55A5A;
+    color: #fff;
+}
+
+.nav--earth {
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: auto;
+}
+.nav--earth::before {
+    position: relative;
+    top: 2px;
+}
+
+.nav--name {
+    font-size: 14.46pt;
+    /* font-weight: 500; */
+    margin-right: auto;
 }
 
 .card {
     flex-direction: row;
+    border: none;
+    border-bottom: 1px solid #F5F5F5;
+    /* margin: 18px 0 0 0; */
+    padding: 18px 5%;
+}
+.card a,
+.card p {
+    font-size: 10.24pt;
+}
+
+.card--location {
+    margin-top: 13px;
+}
+.card--location svg {
+    vertical-align: 0%;
+}
+.card--country {
+    display: inline;
+    margin: 0 10px 0 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.12rem;
+}
+
+.card--title {
+    font-weight: 700;
+    font-size: 20pt;
+    margin-top: 8px;
+}
+
+.card--dates {
+    font-weight: 700;
+    margin: 20px 0 8px;
+}
+
+.card--img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.fujiSan {
+    background-image: url(./images/mount-fuji_mike-prince_unsplash.jpg);
+}
+.sydneyOpera {
+    background-image: url(./images/sydney-opera-house_caleb-russel_unsplash.jpg);
+}
+.geirangerfjord {
+    background-image: url(./images/geirangerfjord_james-rathmell_unsplash.jpg);
+}
+
+
+.container {
+    max-width: 600px;
+}
+.card .col-8 {
+    padding-left: 20px;
 }

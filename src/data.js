@@ -3,9 +3,10 @@ const data = [
         id: 1,
         title: "Mount Fuji",
         img: "mount-fuji_mike-prince_unsplash.jpg",
+        imgAlt: "Fuji-san",
+        imgClass: "fujiSan",
         location: {
             country: "Japan",
-            googleMaps: "https://goo.gl/maps/zzJQ78VHp1CViNbq9"
         },
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
         dates: "12 Jan, 2021 - 24 Jan, 2021"
@@ -14,6 +15,8 @@ const data = [
         id: 2,
         title: "Sydney Opera House",
         img: "sydney-opera-house_caleb-russel_unsplash.jpg",
+        imgAlt: "Sydney Opera House",
+        imgClass: "sydneyOpera",
         location: {
             country: "Australia",
             googleMaps: "https://goo.gl/maps/91K2XWg7d6t3ph1A6"
@@ -25,6 +28,8 @@ const data = [
         id: 3,
         title: "Geirangerfjord",
         img: "geirangerfjord_james-rathmell_unsplash.jpg",
+        imgAlt: "Geirangerfjord",
+        imgClass: "geirangerfjord",
         location:{
             country: "Norway",
             googleMaps: "https://goo.gl/maps/MkBurfAYSgWxJDG89"
