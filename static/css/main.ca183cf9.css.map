@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.ca183cf9.css","mappings":"AAAA,IAII,wBAAyB,CAFzB,YAAa,CADb,WAAY,CAEZ,iBAEJ","sources":["style.css"],"sourcesContent":["nav {\n    height: 70px;\n    display: flex;\n    padding: 20px 36px;\n    background-color: #F55A5A;\n}"],"names":[],"sourceRoot":""}
